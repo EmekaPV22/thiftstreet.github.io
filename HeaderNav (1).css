@@ -1,0 +1,48 @@
+/* General body styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5DC; /* Light beige background */
+}
+
+/* Header styles */
+header {
+    background-color: #556B2F; /* Dark Olive Green for header */
+    padding: 20px 0; /* Space at the top and bottom */
+    text-align: center; /* Center content in header */
+}
+
+/* Logo styles */
+#logo {
+    width: 150px; /* Adjust logo size */
+    animation: blink 1s infinite; /* Blinking effect */
+}
+
+/* Navigation styles */
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0 15px; /* Space between tabs */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff; /* White text */
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar a:hover {
+    background-color: #A9B39D; /* Muted Sage Green hover color */
+}
+

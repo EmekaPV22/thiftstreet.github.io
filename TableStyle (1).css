@@ -1,0 +1,47 @@
+/* Enhanced styling for table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
+}
+
+th, td {
+    border: 1px solid #A9B39D; /* Muted Sage Green for borders */
+    padding: 15px;
+    text-align: left;
+    color: #333333; /* Dark Gray */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+th {
+    background-color: #556B2F; /* Dark Olive Green */
+    color: #FFFFFF; /* White text */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #F8F8E7; /* Light beige for alternating rows */
+}
+
+tr:hover {
+    background-color: #A9B39D; /* Muted Sage Green on hover */
+}
+
+td {
+    background-color: #F5F5DC; /* Subtle beige for cell background */
+}
+
+caption {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #556B2F; /* Dark Olive Green */
+    font-weight: bold;
+}
+
+/* Adding rounded corners */
+table, th, td {
+    border-radius: 5px;
+    overflow: hidden; /* Ensures rounded corners are visible */
+}

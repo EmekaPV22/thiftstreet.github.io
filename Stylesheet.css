@@ -1,0 +1,127 @@
+
+body {
+    background-color: #F5F5DC; /* Light Neutral Beige */
+    font-family: 'Open Sans', sans-serif;
+    color: #333333; /* Dark Gray for general text */
+    margin: 0;
+    padding: 0;
+}
+
+{background-image:url(‘ThriftStreetLogo.png’);} img {
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Navigation Bar */
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #556B2F; /* Dark Olive Green */
+    padding: 10px;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #FFFFFF; /* White text */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    color: #A9B39D; /* Muted Sage Green for hover effect */
+}
+
+/* Headings */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #556B2F; /* Dark Olive Green */
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: semi-bold;
+    color: #556B2F;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: medium;
+    color: #A9B39D; /* Muted Sage Green */
+    margin-top: 15px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333333;
+    margin: 15px 10%;
+}
+
+/* Table Styles */
+table {
+    width: 75%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #556B2F; /* Dark Olive Green */
+    color: #FFFFFF; /* White */
+    font-family: 'Montserrat', sans-serif;
+}
+
+td {
+    background-color: #FFFAF0; /* Light background color for rows */
+    color: #333333; /* Dark Gray */
+}
+
+table, th, td {
+    border: 2px solid #A9B39D; /* Muted Sage Green for border */
+}
+
+/* Button Styles */
+button {
+    background-color: #556B2F; /* Dark Olive Green */
+    color: #FFFFFF; /* White text */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #A9B39D; /* Muted Sage Green for hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background-color: #556B2F; /* Dark Olive Green */
+    color: #FFFFFF; /* White */
+}

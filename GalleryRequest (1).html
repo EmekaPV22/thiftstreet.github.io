@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thrift Finds - Item Request</title>
+    <link rel="stylesheet" href="Request.css">
+</head>
+<body>
+	<div class="side-menu" id="sideMenu">
+        <button class="close-btn" onclick="closeMenu()">✖</button>
+        <ul>
+			<br>
+			<br>
+            <li><a href="ThriftFinds.html">Home</a></li>
+            <li><a href="GalleryRequest.html">Request</a></li>
+        </ul>
+    </div>
+
+    <button class="menu-btn" onclick="openMenu()" >☰</button>
+	<header>
+        <h1>Item Request Form</h1>
+    </header>
+
+    <main>
+        <form class="request-form">
+            <label for="item-name">Item Name</label>
+            <input type="text" id="item-name" name="item-name" placeholder="Enter item name" required>
+
+            <label for="category">Category</label>
+            <select id="category" name="category" required>
+                <option value="">Select a category</option>
+                <option value="furniture">Furniture</option>
+                <option value="clothing">Clothing</option>
+                <option value="decor">Home Decor</option>
+                <option value="electronics">Electronics</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="details">Details</label>
+            <textarea id="details" name="details" placeholder="Provide more details about the item" rows="5"></textarea>
+
+            <button type="submit">Submit Request</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2024 Taylor's Thrift Finds. All Rights Reserved.</p>
+    </footer>
+	<script src="script.js"></script>
+</body>
+</html>

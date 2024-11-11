@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="Gstyle.css">
+<style>
+p{ text-align:center;
+   font-family: Open Sans;
+   font-size: 16px;
+   color: #333333;
+}
+
+span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+body{ background-color: #F5F5DC;
+   font-family: Open Sans;
+   font-size: 16px;
+   color: #333333;
+}
+
+#wrapper{width: 100%;
+	 margin: auto;
+	 overflow: hidden;}
+
+header{ padding:20px 0px;}
+
+.header {
+         position: fixed;
+         top: 0;
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         background-color: #556B2F;
+          padding: 10px 20px;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+          z-index: 1000;
+        }
+
+        /* Logo */
+        .logo img {
+            height: 90px; /* Slightly increased logo size */
+            margin-bottom: 10px;
+        }
+
+        /* Navigation Links */
+        .nav-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links li a {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .nav-links li a:hover {
+            color: #A9B39D; /* Muted Sage Green */
+        }
+	/* Page Title */
+        .page-title {
+            margin-top: 150px; /* Padding to prevent overlap with floating header */
+            font-size: 32px;
+            color: #556B2F;
+            font-family: 'Montserrat', sans-serif;
+        }
+h1{ font-family: Montserrat;
+    font-size: 32px;
+    color: 556B2F;
+    text-align: center;
+}
+
+.container{
+  display: flex;
+  gap: 80px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+main {
+      padding: 10px 20px;
+      background-color: #F5F5DC;
+      }
+
+h2{font-family: Montserrat;
+   font-size: 24px;
+   color: #333333;
+   text-align: center;
+   border-radius: 100px; 
+}
+
+h3{font-family: Montserrat;
+   font-size: 20px;
+   color: #A9B39D;
+   text-align: center;
+   border-radius: 100px; 
+}
+
+.image-table {
+  width: 100%;       /* Full width of the container */
+  border-collapse: collapse;
+  text-align: center; /* Center-align the images */
+}
+
+ .Images {
+         display: flex;
+         justify-content: center;
+         gap: 80px;
+         flex-wrap: wrap;
+         padding: 20px 0;
+      }
+
+table{
+      width: 100%; 
+      border-collapse: collapse; 
+      /*border: 5px ; */
+      font-family: Montserrt; }
+
+th,td{
+      padding: 10px;
+}
+
+td {
+    height: 100px;
+}
+
+footer {text-align: center;
+        font-family: Montserrat;
+	padding: 10px
+	border-radius: 8px}
+
+/*Styles the layout for small screens*/
+@media (max-width: 600px){
+	.container{
+		   flex-direction: column;
+  	}
+}
+
+/*Styles the layout for tablets*/
+@media (min-width: 600px) and (max-width: 1024px){
+	.container{
+		   flex-direction: row;
+  	}
+}
+
+/*Styles the layout for large screens*/
+@media (min-width: 1024px){
+	.container{
+		   flex-direction: row;
+  	}
+}
+
+ 
+</style>
+</head>
+
+<div id="wrapper">
+<body>
+<h1>Title</h1>
+
+
+<main>
+ <h2>Meet the Team </h2>
+<table>
+  <tr>
+    <td>Row 1, Cell 1</td>
+    <td>Row 1, Cell 2</td>
+    <td>Row 1, Cell 3</td>
+    <td>Row 1, Cell 4</td>
+  </tr>
+  <tr>
+    <td>Row 2, Cell 1</td>
+    <td>Row 2, Cell 2</td>
+    <td>Row 2, Cell 3</td>
+    <td>Row 2, Cell 4</td>
+  </tr>
+</table>
+
+<h3> Extra </h3>
+ <div class="Images">
+	<img src="Images/haitirecipelarge.jpg" alt="Haitian Food" width="400" height="300">
+	<img src="Images/mexican-food.jpg" alt="Mexican Food" width="400" height="300">
+	<img src="Images/OrangeChick.jpg" alt="Chinese Food" width="400" height="300">
+      </div>
+     </main>
+   </div>
+  </body>
+</html>
